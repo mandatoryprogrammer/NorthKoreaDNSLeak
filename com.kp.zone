@@ -1,0 +1,42 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR com.kp. @ns2.kptc.kp
+;; global options: +cmd
+com.kp.			432000	IN	SOA	ns1.com.kp. root.com.kp. 2013112203 28800 86400 1209600 86400
+com.kp.			432000	IN	NS	ns1.com.kp.
+com.kp.			432000	IN	NS	ns2.com.kp.
+airkoryo.com.kp.	432000	IN	NS	ns1.airkoryo.com.kp.
+airkoryo.com.kp.	432000	IN	NS	ns2.airkoryo.com.kp.
+ns1.airkoryo.com.kp.	432000	IN	A	175.45.176.8
+ns2.airkoryo.com.kp.	432000	IN	A	175.45.176.9
+friend.com.kp.		432000	IN	NS	ns1.friend.com.kp.
+friend.com.kp.		432000	IN	NS	ns2.friend.com.kp.
+ns1.friend.com.kp.	432000	IN	A	175.45.176.8
+ns2.friend.com.kp.	432000	IN	A	175.45.176.9
+kiyctc.com.kp.		432000	IN	NS	ns1.kiyctc.com.kp.
+kiyctc.com.kp.		432000	IN	NS	ns2.kiyctc.com.kp.
+ns1.kiyctc.com.kp.	432000	IN	A	175.45.176.8
+ns2.kiyctc.com.kp.	432000	IN	A	175.45.176.9
+knic.com.kp.		432000	IN	NS	ns1.knic.com.kp.
+knic.com.kp.		432000	IN	NS	ns2.knic.com.kp.
+ns1.knic.com.kp.	432000	IN	A	175.45.176.8
+ns2.knic.com.kp.	432000	IN	A	175.45.176.9
+korfilm.com.kp.		432000	IN	NS	ns1.korfilm.com.kp.
+korfilm.com.kp.		432000	IN	NS	ns2.korfilm.com.kp.
+ns1.korfilm.com.kp.	432000	IN	A	175.45.176.8
+ns2.korfilm.com.kp.	432000	IN	A	175.45.176.9
+masikryong.com.kp.	432000	IN	NS	ns1.masikryong.com.kp.
+masikryong.com.kp.	432000	IN	NS	ns2.masikryong.com.kp.
+ns1.masikryong.com.kp.	432000	IN	A	175.45.176.8
+ns2.masikryong.com.kp.	432000	IN	A	175.45.176.9
+naenara.com.kp.		432000	IN	NS	ns1.naenara.com.kp.
+naenara.com.kp.		432000	IN	NS	ns2.naenara.com.kp.
+ns1.naenara.com.kp.	432000	IN	A	175.45.176.8
+ns2.naenara.com.kp.	432000	IN	A	175.45.176.9
+ns1.com.kp.		432000	IN	A	175.45.176.15
+ns2.com.kp.		432000	IN	A	175.45.176.16
+com.kp.			432000	IN	SOA	ns1.com.kp. root.com.kp. 2013112203 28800 86400 1209600 86400
+;; Query time: 252 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:29:01 2016
+;; XFR size: 34 records (messages 1, bytes 700)
+

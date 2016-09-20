@@ -1,0 +1,47 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR kp. @ns2.kptc.kp
+;; global options: +cmd
+kp.			432000	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013083001 28800 86400 1209600 86400
+kp.			432000	IN	NS	ns1.kptc.kp.
+kp.			432000	IN	NS	ns2.kptc.kp.
+kp.			432000	IN	NS	ns3.kptc.kp.
+co.kp.			432000	IN	NS	ns1.co.kp.
+co.kp.			432000	IN	NS	ns2.co.kp.
+ns1.co.kp.		432000	IN	A	175.45.176.15
+ns2.co.kp.		432000	IN	A	175.45.176.16
+com.kp.			432000	IN	NS	ns1.com.kp.
+com.kp.			432000	IN	NS	ns2.com.kp.
+ns1.com.kp.		432000	IN	A	175.45.176.15
+ns2.com.kp.		432000	IN	A	175.45.176.16
+edu.kp.			432000	IN	NS	ns1.edu.kp.
+edu.kp.			432000	IN	NS	ns2.edu.kp.
+ns1.edu.kp.		432000	IN	A	175.45.176.15
+ns2.edu.kp.		432000	IN	A	175.45.176.16
+gov.kp.			432000	IN	NS	ns1.gov.kp.
+gov.kp.			432000	IN	NS	ns2.gov.kp.
+ns1.gov.kp.		432000	IN	A	175.45.176.15
+ns2.gov.kp.		432000	IN	A	175.45.176.16
+kcna.kp.		432000	IN	NS	ns1.kcna.kp.
+kcna.kp.		432000	IN	NS	ns2.kcna.kp.
+ns1.kcna.kp.		432000	IN	A	175.45.176.8
+ns2.kcna.kp.		432000	IN	A	175.45.176.9
+ns1.kptc.kp.		432000	IN	A	175.45.176.15
+ns2.kptc.kp.		432000	IN	A	175.45.176.16
+net.kp.			432000	IN	NS	ns1.net.kp.
+net.kp.			432000	IN	NS	ns2.net.kp.
+ns1.net.kp.		432000	IN	A	175.45.176.15
+ns2.net.kp.		432000	IN	A	175.45.176.16
+org.kp.			432000	IN	NS	ns1.org.kp.
+org.kp.			432000	IN	NS	ns2.org.kp.
+ns1.org.kp.		432000	IN	A	175.45.176.15
+ns2.org.kp.		432000	IN	A	175.45.176.16
+rep.kp.			432000	IN	NS	ns1.rep.kp.
+rep.kp.			432000	IN	NS	ns2.rep.kp.
+ns1.rep.kp.		432000	IN	A	175.45.176.15
+ns2.rep.kp.		432000	IN	A	175.45.176.16
+kp.			432000	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013083001 28800 86400 1209600 86400
+;; Query time: 410 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:28:24 2016
+;; XFR size: 39 records (messages 1, bytes 764)
+

@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR edu.kp. @ns2.kptc.kp
+;; global options: +cmd
+edu.kp.			432000	IN	SOA	ns1.edu.kp. root.edu.kp. 2013082903 28800 86400 1209600 86400
+edu.kp.			432000	IN	NS	ns1.edu.kp.
+edu.kp.			432000	IN	NS	ns2.edu.kp.
+ns1.edu.kp.		432000	IN	A	175.45.176.15
+ns2.edu.kp.		432000	IN	A	175.45.176.16
+ryongnamsan.edu.kp.	432000	IN	NS	ns1.ryongnamsan.edu.kp.
+ryongnamsan.edu.kp.	432000	IN	NS	ns2.ryongnamsan.edu.kp.
+ns1.ryongnamsan.edu.kp.	432000	IN	A	175.45.176.8
+ns2.ryongnamsan.edu.kp.	432000	IN	A	175.45.176.9
+star.edu.kp.		432000	IN	NS	ns1.star.edu.kp.
+ns1.star.edu.kp.	432000	IN	A	175.45.179.76
+edu.kp.			432000	IN	SOA	ns1.edu.kp. root.edu.kp. 2013082903 28800 86400 1209600 86400
+;; Query time: 1433 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:29:19 2016
+;; XFR size: 12 records (messages 1, bytes 288)
+

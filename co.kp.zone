@@ -1,0 +1,18 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR co.kp. @ns2.kptc.kp
+;; global options: +cmd
+co.kp.			432000	IN	SOA	ns1.co.kp. root.co.kp. 2013082900 28800 86400 1209600 86400
+co.kp.			432000	IN	NS	ns1.co.kp.
+co.kp.			432000	IN	NS	ns2.co.kp.
+ns1.co.kp.		432000	IN	A	175.45.176.15
+ns2.co.kp.		432000	IN	A	175.45.176.16
+star.co.kp.		432000	IN	NS	ns1.star.co.kp.
+star.co.kp.		432000	IN	NS	ns2.star.co.kp.
+ns1.star.co.kp.		432000	IN	A	175.45.176.15
+ns2.star.co.kp.		432000	IN	A	175.45.176.16
+co.kp.			432000	IN	SOA	ns1.co.kp. root.co.kp. 2013082900 28800 86400 1209600 86400
+;; Query time: 437 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:28:46 2016
+;; XFR size: 10 records (messages 1, bytes 241)
+

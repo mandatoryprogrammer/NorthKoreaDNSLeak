@@ -1,0 +1,34 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR org.kp. @ns2.kptc.kp
+;; global options: +cmd
+org.kp.			432000	IN	SOA	ns1.org.kp. root.org.kp. 2013082900 28800 86400 1209600 86400
+org.kp.			432000	IN	NS	ns1.org.kp.
+org.kp.			432000	IN	NS	ns2.org.kp.
+cooks.org.kp.		432000	IN	NS	ns1.cooks.org.kp.
+cooks.org.kp.		432000	IN	NS	ns2.cooks.org.kp.
+ns1.cooks.org.kp.	432000	IN	A	175.45.176.8
+ns2.cooks.org.kp.	432000	IN	A	175.45.176.9
+kass.org.kp.		432000	IN	NS	ns1.kass.org.kp.
+kass.org.kp.		432000	IN	NS	ns2.kass.org.kp.
+ns1.kass.org.kp.	432000	IN	A	175.45.176.8
+ns2.kass.org.kp.	432000	IN	A	175.45.176.9
+koredufund.org.kp.	432000	IN	NS	ns1.koredufund.org.kp.
+koredufund.org.kp.	432000	IN	NS	ns2.koredufund.org.kp.
+ns1.koredufund.org.kp.	432000	IN	A	175.45.176.8
+ns2.koredufund.org.kp.	432000	IN	A	175.45.176.9
+korelcfund.org.kp.	432000	IN	NS	ns1.korelcfund.org.kp.
+korelcfund.org.kp.	432000	IN	NS	ns2.korelcfund.org.kp.
+ns1.korelcfund.org.kp.	432000	IN	A	175.45.176.8
+ns2.korelcfund.org.kp.	432000	IN	A	175.45.176.9
+ns1.org.kp.		432000	IN	A	175.45.176.15
+ns2.org.kp.		432000	IN	A	175.45.176.16
+sdprk.org.kp.		432000	IN	NS	ns1.sdprk.org.kp.
+sdprk.org.kp.		432000	IN	NS	ns2.sdprk.org.kp.
+ns1.sdprk.org.kp.	432000	IN	A	175.45.176.8
+ns2.sdprk.org.kp.	432000	IN	A	175.45.176.9
+org.kp.			432000	IN	SOA	ns1.org.kp. root.org.kp. 2013082900 28800 86400 1209600 86400
+;; Query time: 409 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:30:24 2016
+;; XFR size: 26 records (messages 1, bytes 548)
+

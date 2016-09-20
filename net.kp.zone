@@ -1,0 +1,38 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR net.kp. @ns2.kptc.kp
+;; global options: +cmd
+net.kp.			432000	IN	SOA	ns1.net.kp. root.net.kp. 2013082901 28800 86400 1209600 86400
+net.kp.			432000	IN	NS	ns1.net.kp.
+net.kp.			432000	IN	NS	ns2.net.kp.
+ns1.net.kp.		432000	IN	A	175.45.176.15
+ns2.net.kp.		432000	IN	A	175.45.176.16
+portal.net.kp.		432000	IN	NS	ns1.portal.net.kp.
+portal.net.kp.		432000	IN	NS	ns2.portal.net.kp.
+ns1.portal.net.kp.	432000	IN	A	175.45.176.8
+ns2.portal.net.kp.	432000	IN	A	175.45.176.9
+rcc.net.kp.		432000	IN	NS	ns1.rcc.net.kp.
+rcc.net.kp.		432000	IN	NS	ns2.rcc.net.kp.
+ns1.rcc.net.kp.		432000	IN	A	175.45.176.8
+ns2.rcc.net.kp.		432000	IN	A	175.45.176.9
+silibank.net.kp.	432000	IN	NS	ns1.silibank.net.kp.
+silibank.net.kp.	432000	IN	NS	ns2.silibank.net.kp.
+ns1.silibank.net.kp.	432000	IN	A	175.45.176.8
+ns2.silibank.net.kp.	432000	IN	A	175.45.176.9
+star.net.kp.		432000	IN	NS	ns1.star.net.kp.
+star.net.kp.		432000	IN	NS	ns2.star.net.kp.
+ns1.star.net.kp.	432000	IN	A	175.45.176.8
+ns2.star.net.kp.	432000	IN	A	175.45.176.9
+star-co.net.kp.		432000	IN	NS	ns1.star-co.net.kp.
+star-co.net.kp.		432000	IN	NS	ns2.star-co.net.kp.
+ns1.star-co.net.kp.	432000	IN	A	175.45.176.8
+ns2.star-co.net.kp.	432000	IN	A	175.45.176.9
+star-di.net.kp.		432000	IN	NS	ns1.star-di.net.kp.
+star-di.net.kp.		432000	IN	NS	ns2.star-di.net.kp.
+ns1.star-di.net.kp.	432000	IN	A	175.45.176.8
+ns2.star-di.net.kp.	432000	IN	A	175.45.176.9
+net.kp.			432000	IN	SOA	ns1.net.kp. root.net.kp. 2013082901 28800 86400 1209600 86400
+;; Query time: 409 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:30:04 2016
+;; XFR size: 30 records (messages 1, bytes 618)
+

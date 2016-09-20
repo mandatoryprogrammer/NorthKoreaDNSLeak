@@ -1,0 +1,26 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR rep.kp. @ns2.kptc.kp
+;; global options: +cmd
+rep.kp.			432000	IN	SOA	ns1.rep.kp. root.rep.kp. 2013082900 28800 86400 1209600 86400
+rep.kp.			432000	IN	NS	ns1.rep.kp.
+rep.kp.			432000	IN	NS	ns2.rep.kp.
+gnu.rep.kp.		432000	IN	NS	ns1.gnu.rep.kp.
+gnu.rep.kp.		432000	IN	NS	ns2.gnu.rep.kp.
+ns1.gnu.rep.kp.		432000	IN	A	175.45.176.8
+ns2.gnu.rep.kp.		432000	IN	A	175.45.176.9
+ns1.rep.kp.		432000	IN	A	175.45.176.15
+ns2.rep.kp.		432000	IN	A	175.45.176.16
+rodong.rep.kp.		432000	IN	NS	ns1.rodong.rep.kp.
+rodong.rep.kp.		432000	IN	NS	ns2.rodong.rep.kp.
+ns1.rodong.rep.kp.	432000	IN	A	175.45.176.8
+ns2.rodong.rep.kp.	432000	IN	A	175.45.176.9
+vok.rep.kp.		432000	IN	NS	ns1.vok.rep.kp.
+vok.rep.kp.		432000	IN	NS	ns2.vok.rep.kp.
+ns1.vok.rep.kp.		432000	IN	A	175.45.176.8
+ns2.vok.rep.kp.		432000	IN	A	175.45.176.9
+rep.kp.			432000	IN	SOA	ns1.rep.kp. root.rep.kp. 2013082900 28800 86400 1209600 86400
+;; Query time: 410 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:30:37 2016
+;; XFR size: 18 records (messages 1, bytes 388)
+

@@ -1,0 +1,22 @@
+
+; <<>> DiG 9.8.3-P1 <<>> AXFR gov.kp. @ns2.kptc.kp
+;; global options: +cmd
+gov.kp.			432000	IN	SOA	ns1.gov.kp. root.gov.kp. 2013082901 28800 86400 1209600 86400
+gov.kp.			432000	IN	NS	ns1.gov.kp.
+gov.kp.			432000	IN	NS	ns2.gov.kp.
+ma.gov.kp.		432000	IN	NS	ns1.ma.gov.kp.
+ma.gov.kp.		432000	IN	NS	ns2.ma.gov.kp.
+ns1.ma.gov.kp.		432000	IN	A	175.45.176.8
+ns2.ma.gov.kp.		432000	IN	A	175.45.176.9
+ns1.gov.kp.		432000	IN	A	175.45.176.15
+ns2.gov.kp.		432000	IN	A	175.45.176.16
+nta.gov.kp.		432000	IN	NS	ns1.nta.gov.kp.
+nta.gov.kp.		432000	IN	NS	ns2.nta.gov.kp.
+ns1.nta.gov.kp.		432000	IN	A	175.45.176.8
+ns2.nta.gov.kp.		432000	IN	A	175.45.176.9
+gov.kp.			432000	IN	SOA	ns1.gov.kp. root.gov.kp. 2013082901 28800 86400 1209600 86400
+;; Query time: 1638 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Mon Sep 19 22:29:36 2016
+;; XFR size: 14 records (messages 1, bytes 312)
+
