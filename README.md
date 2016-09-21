@@ -1,5 +1,7 @@
 ![North Korean Flag](https://i.imgur.com/o3mHZ9h.png)
+
 # North Korea .kp TLD Zone Data
+
 On Sept 19, 2016 at approximately 10:00PM (PDT), one of North Korea's top level nameservers was accidentally configured to allow global DNS zone transfers. This allows anyone who performs an `AXFR` (zone transfer) request to the country's `ns2.kptc.kp` nameserver to get a copy of the nation's top level DNS data. This was detected by the [TLDR Project](https://github.com/mandatoryprogrammer/TLDR) - an effort to attempt zone transfers against all top level domain (TLD) nameservers every two hours and keep a running Github repo with the resulting data. This data gives us a better picture of North Korea's domains and top level DNS.
 
 [Click here for the commit showing this incident.](https://github.com/mandatoryprogrammer/TLDR/blob/132016acc6aa8478bd050deb798178f8d5c630f8/archives/kp/ns2.kptc.kp.zone)
@@ -7,11 +9,12 @@ On Sept 19, 2016 at approximately 10:00PM (PDT), one of North Korea's top level 
 As of the time of this writing, zone transfers are still enabled for multiple `.kp` top level domains via `ns2.kptc.kp`.
 
 ## PoC
-```
+```bash
 dig AXFR kp. @ns2.kptc.kp
 ```
 
 ## .kp Domains
+
 ```
 airkoryo.com.kp.
 cooks.org.kp.
@@ -44,7 +47,8 @@ vok.rep.kp.
 ```
 
 ## .kp Zone File Data
-```
+
+```zone
 ; <<>> DiG 9.9.5-3ubuntu0.8-Ubuntu <<>> AXFR kp. @ns2.kptc.kp. +nocomments +nocmd +noquestion +nostats +time=15
 ;; global options: +cmd
 kp.         432000  IN  SOA ns1.kptc.kp. root.kptc.kp. 2013083001 28800 86400 1209600 86400
@@ -90,7 +94,7 @@ kp.         432000  IN  SOA ns1.kptc.kp. root.kptc.kp. 2013083001 28800 86400 12
 
 ## .co.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR co.kp. @ns2.kptc.kp
 ;; global options: +cmd
 co.kp.          432000  IN  SOA ns1.co.kp. root.co.kp. 2013082900 28800 86400 1209600 86400
@@ -111,7 +115,7 @@ co.kp.          432000  IN  SOA ns1.co.kp. root.co.kp. 2013082900 28800 86400 12
 
 ## .com.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR com.kp. @ns2.kptc.kp
 ;; global options: +cmd
 com.kp.         432000  IN  SOA ns1.com.kp. root.com.kp. 2013112203 28800 86400 1209600 86400
@@ -156,7 +160,7 @@ com.kp.         432000  IN  SOA ns1.com.kp. root.com.kp. 2013112203 28800 86400 
 
 ## edu.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR edu.kp. @ns2.kptc.kp
 ;; global options: +cmd
 edu.kp.         432000  IN  SOA ns1.edu.kp. root.edu.kp. 2013082903 28800 86400 1209600 86400
@@ -179,7 +183,7 @@ edu.kp.         432000  IN  SOA ns1.edu.kp. root.edu.kp. 2013082903 28800 86400 
 
 ## gov.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR gov.kp. @ns2.kptc.kp
 ;; global options: +cmd
 gov.kp.         432000  IN  SOA ns1.gov.kp. root.gov.kp. 2013082901 28800 86400 1209600 86400
@@ -204,7 +208,7 @@ gov.kp.         432000  IN  SOA ns1.gov.kp. root.gov.kp. 2013082901 28800 86400 
 
 ## net.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR net.kp. @ns2.kptc.kp
 ;; global options: +cmd
 net.kp.         432000  IN  SOA ns1.net.kp. root.net.kp. 2013082901 28800 86400 1209600 86400
@@ -245,7 +249,7 @@ net.kp.         432000  IN  SOA ns1.net.kp. root.net.kp. 2013082901 28800 86400 
 
 ## org.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR org.kp. @ns2.kptc.kp
 ;; global options: +cmd
 org.kp.         432000  IN  SOA ns1.org.kp. root.org.kp. 2013082900 28800 86400 1209600 86400
@@ -282,7 +286,7 @@ org.kp.         432000  IN  SOA ns1.org.kp. root.org.kp. 2013082900 28800 86400 
 
 ## rep.kp Zone File Data
 
-```
+```zone
 ; <<>> DiG 9.8.3-P1 <<>> AXFR rep.kp. @ns2.kptc.kp
 ;; global options: +cmd
 rep.kp.         432000  IN  SOA ns1.rep.kp. root.rep.kp. 2013082900 28800 86400 1209600 86400
