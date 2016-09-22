@@ -1,0 +1,80 @@
+
+; <<>> DiG 9.8.3-P1 <<>> @ns2.kptc.kp. 176.45.175.in-addr.arpa. -t axfr dig @ns2.kptc.kp. 177.45.175.in-addr.arpa. -t axfr dig @ns2.kptc.kp. 178.45.175.in-addr.arpa. -t axfr dig @ns2.kptc.kp. 179.45.175.in-addr.arpa. -t axfr
+; (1 server found)
+;; global options: +cmd
+176.45.175.in-addr.arpa. 432000	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013082900 28800 86400 1209600 86400
+176.45.175.in-addr.arpa. 432000	IN	NS	ns1.kptc.kp.
+176.45.175.in-addr.arpa. 432000	IN	NS	ns2.kptc.kp.
+#10.176.45.175.in-addr.arpa. 432000 IN	PTR	smtp.star-co.net.kp.
+15.176.45.175.in-addr.arpa. 432000 IN	PTR	ns1.kptc.kp.
+16.176.45.175.in-addr.arpa. 432000 IN	PTR	ns2.kptc.kp.
+61.176.45.175.in-addr.arpa. 432000 IN	PTR	smtp.star.net.kp.
+67.176.45.175.in-addr.arpa. 432000 IN	PTR	naenara.com.kp.
+70.176.45.175.in-addr.arpa. 432000 IN	PTR	mail.silibank.net.kp.
+176.45.175.in-addr.arpa. 432000	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013082900 28800 86400 1209600 86400
+;; Query time: 751 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Wed Sep 21 18:15:29 2016
+;; XFR size: 10 records (messages 1, bytes 317)
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 3440
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;dig.				IN	A
+
+;; Query time: 854 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Wed Sep 21 18:15:29 2016
+;; MSG SIZE  rcvd: 21
+
+; Transfer failed.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 8478
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;dig.				IN	A
+
+;; Query time: 908 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Wed Sep 21 18:15:32 2016
+;; MSG SIZE  rcvd: 21
+
+178.45.175.in-addr.arpa. 432000	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013082903 28800 86400 1209600 86400
+178.45.175.in-addr.arpa. 432000	IN	NS	ns1.kptc.kp.
+178.45.175.in-addr.arpa. 432000	IN	NS	ns2.kptc.kp.
+170.178.45.175.in-addr.arpa. 432000 IN	PTR	smtp.star.net.kp.
+55.178.45.175.in-addr.arpa. 432000 IN	PTR	smtp.star-co.net.kp.
+178.45.175.in-addr.arpa. 432000	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013082903 28800 86400 1209600 86400
+;; Query time: 677 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Wed Sep 21 18:15:33 2016
+;; XFR size: 6 records (messages 1, bytes 223)
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 18855
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;dig.				IN	A
+
+;; Query time: 716 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Wed Sep 21 18:15:34 2016
+;; MSG SIZE  rcvd: 21
+
+179.45.175.in-addr.arpa. 432000	IN	SOA	ns1.star.edu.kp. root.kptc.kp.179.45.175.in-addr.arpa. 2013082900 28800 86400 1209600 86400
+179.45.175.in-addr.arpa. 432000	IN	NS	ns1.star.edu.kp.
+69.179.45.175.in-addr.arpa. 432000 IN	PTR	mail.star.edu.kp.
+76.179.45.175.in-addr.arpa. 432000 IN	PTR	ns1.star.edu.kp.
+179.45.175.in-addr.arpa. 432000	IN	SOA	ns1.star.edu.kp. root.kptc.kp.179.45.175.in-addr.arpa. 2013082900 28800 86400 1209600 86400
+;; Query time: 421 msec
+;; SERVER: 175.45.176.16#53(175.45.176.16)
+;; WHEN: Wed Sep 21 18:15:36 2016
+;; XFR size: 5 records (messages 1, bytes 194)
+
