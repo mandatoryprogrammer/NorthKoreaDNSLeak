@@ -1,0 +1,634 @@
+
+; <<>> DiG 9.8.3-P1 <<>> airkoryo.com.kp.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33458
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;airkoryo.com.kp.		IN	ANY
+
+;; ANSWER SECTION:
+airkoryo.com.kp.	21599	IN	A	175.45.176.69
+airkoryo.com.kp.	21599	IN	SOA	ns1.airkoryo.com.kp. postmaster.airkoryo.com.kp. 2012042612 28800 7200 1209600 3600
+airkoryo.com.kp.	21599	IN	NS	ns1.airkoryo.com.kp.
+airkoryo.com.kp.	21599	IN	NS	ns2.airkoryo.com.kp.
+airkoryo.com.kp.	21599	IN	MX	10 mail.airkoryo.com.kp.
+airkoryo.com.kp.	21599	IN	TXT	"vspf1 ipv4:175.45.176.70 -all"
+
+;; Query time: 302 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:39 2016
+;; MSG SIZE  rcvd: 195
+
+; <<>> DiG 9.8.3-P1 <<>> co.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45384
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;co.kp.				IN	ANY
+
+;; ANSWER SECTION:
+co.kp.			21599	IN	SOA	ns1.co.kp. root.co.kp. 2013082900 28800 86400 1209600 86400
+co.kp.			21599	IN	NS	ns2.co.kp.
+co.kp.			21599	IN	NS	ns1.co.kp.
+
+;; Query time: 817 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:40 2016
+;; MSG SIZE  rcvd: 100
+
+; <<>> DiG 9.8.3-P1 <<>> com.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20655
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;com.kp.				IN	ANY
+
+;; ANSWER SECTION:
+com.kp.			21599	IN	SOA	ns1.com.kp. root.com.kp. 2013112203 28800 86400 1209600 86400
+com.kp.			21599	IN	NS	ns2.com.kp.
+com.kp.			21599	IN	NS	ns1.com.kp.
+
+;; Query time: 408 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:41 2016
+;; MSG SIZE  rcvd: 101
+
+; <<>> DiG 9.8.3-P1 <<>> cooks.org.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45112
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;cooks.org.kp.			IN	ANY
+
+;; ANSWER SECTION:
+cooks.org.kp.		21599	IN	SOA	ns1.cooks.org.kp. root.cooks.org.kp. 2013050210 28800 7200 1209600 3600
+cooks.org.kp.		21599	IN	NS	ns1.cooks.org.kp.
+cooks.org.kp.		21599	IN	NS	ns2.cooks.org.kp.
+cooks.org.kp.		21599	IN	A	175.45.176.81
+
+;; Query time: 509 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:41 2016
+;; MSG SIZE  rcvd: 123
+
+; <<>> DiG 9.8.3-P1 <<>> edu.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22264
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;edu.kp.				IN	ANY
+
+;; ANSWER SECTION:
+edu.kp.			21599	IN	SOA	ns1.edu.kp. root.edu.kp. 2013082903 28800 86400 1209600 86400
+edu.kp.			21599	IN	NS	ns1.edu.kp.
+edu.kp.			21599	IN	NS	ns2.edu.kp.
+
+;; Query time: 309 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:41 2016
+;; MSG SIZE  rcvd: 101
+
+; <<>> DiG 9.8.3-P1 <<>> friend.com.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15875
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;friend.com.kp.			IN	ANY
+
+;; ANSWER SECTION:
+friend.com.kp.		21599	IN	A	175.45.176.81
+friend.com.kp.		21599	IN	SOA	ns1.friend.com.kp. root.friend.com.kp. 2012022310 28800 7200 1209600 3600
+friend.com.kp.		21599	IN	NS	ns1.friend.com.kp.
+friend.com.kp.		21599	IN	NS	ns2.friend.com.kp.
+
+;; Query time: 614 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:42 2016
+;; MSG SIZE  rcvd: 124
+
+; <<>> DiG 9.8.3-P1 <<>> gnu.rep.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8962
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;gnu.rep.kp.			IN	ANY
+
+;; ANSWER SECTION:
+gnu.rep.kp.		21599	IN	A	175.45.176.83
+gnu.rep.kp.		21599	IN	A	175.45.176.73
+gnu.rep.kp.		21599	IN	SOA	ns1.gnu.rep.kp. postmaster.gnu.rep.kp. 2012110810 28800 7200 1209600 3600
+gnu.rep.kp.		21599	IN	NS	ns1.gnu.rep.kp.
+gnu.rep.kp.		21599	IN	NS	ns2.gnu.rep.kp.
+
+;; Query time: 1230 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:43 2016
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.8.3-P1 <<>> gov.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14084
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;gov.kp.				IN	ANY
+
+;; ANSWER SECTION:
+gov.kp.			21599	IN	SOA	ns1.gov.kp. root.gov.kp. 2013082901 28800 86400 1209600 86400
+gov.kp.			21599	IN	NS	ns1.gov.kp.
+gov.kp.			21599	IN	NS	ns2.gov.kp.
+
+;; Query time: 310 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:44 2016
+;; MSG SIZE  rcvd: 101
+
+; <<>> DiG 9.8.3-P1 <<>> kass.org.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65522
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;kass.org.kp.			IN	ANY
+
+;; ANSWER SECTION:
+kass.org.kp.		21599	IN	A	175.45.176.81
+kass.org.kp.		21599	IN	SOA	ns1.kass.org.kp. postmaster.kass.org.kp. 2012042612 28800 7200 1209600 3600
+kass.org.kp.		21599	IN	NS	ns2.kass.org.kp.
+kass.org.kp.		21599	IN	NS	ns1.kass.org.kp.
+
+;; Query time: 507 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:44 2016
+;; MSG SIZE  rcvd: 128
+
+; <<>> DiG 9.8.3-P1 <<>> kcna.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44550
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;kcna.kp.			IN	ANY
+
+;; ANSWER SECTION:
+kcna.kp.		21599	IN	SOA	ns1.kcna.kp. root.kcna.kp. 2012022310 28800 7200 1209600 3600
+kcna.kp.		21599	IN	NS	ns1.kcna.kp.
+kcna.kp.		21599	IN	NS	ns2.kcna.kp.
+kcna.kp.		21599	IN	A	175.45.176.74
+kcna.kp.		21599	IN	A	175.45.176.71
+
+;; Query time: 1344 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:50 2016
+;; MSG SIZE  rcvd: 134
+
+; <<>> DiG 9.8.3-P1 <<>> kiyctc.com.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1340
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;kiyctc.com.kp.			IN	ANY
+
+;; ANSWER SECTION:
+kiyctc.com.kp.		21599	IN	A	175.45.176.81
+kiyctc.com.kp.		21599	IN	SOA	ns1.kiyctc.com.kp. postmaster.kiyctc.com.kp. 2012092410 28800 7200 1209600 3600
+kiyctc.com.kp.		21599	IN	NS	ns2.kiyctc.com.kp.
+kiyctc.com.kp.		21599	IN	NS	ns1.kiyctc.com.kp.
+
+;; Query time: 476 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:51 2016
+;; MSG SIZE  rcvd: 130
+
+; <<>> DiG 9.8.3-P1 <<>> knic.com.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41942
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;knic.com.kp.			IN	ANY
+
+;; ANSWER SECTION:
+knic.com.kp.		21599	IN	SOA	ns1.knic.com.kp. postmaster.knic.com.kp. 2013040110 28800 7200 1209600 3600
+knic.com.kp.		21599	IN	NS	ns1.knic.com.kp.
+knic.com.kp.		21599	IN	NS	ns2.knic.com.kp.
+knic.com.kp.		21599	IN	A	175.45.176.81
+
+;; Query time: 912 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:52 2016
+;; MSG SIZE  rcvd: 128
+
+; <<>> DiG 9.8.3-P1 <<>> koredufund.org.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36636
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;koredufund.org.kp.		IN	ANY
+
+;; ANSWER SECTION:
+koredufund.org.kp.	21599	IN	A	175.45.176.81
+koredufund.org.kp.	21599	IN	SOA	ns1.koredufund.org.kp. root.koredufund.org.kp. 2012022310 28800 7200 1209600 3600
+koredufund.org.kp.	21599	IN	NS	ns1.koredufund.org.kp.
+koredufund.org.kp.	21599	IN	NS	ns2.koredufund.org.kp.
+
+;; Query time: 1188 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:58 2016
+;; MSG SIZE  rcvd: 128
+
+; <<>> DiG 9.8.3-P1 <<>> korelcfund.org.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41911
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;korelcfund.org.kp.		IN	ANY
+
+;; ANSWER SECTION:
+korelcfund.org.kp.	21599	IN	A	175.45.176.81
+korelcfund.org.kp.	21599	IN	SOA	ns1.korelcfund.org.kp. root.korelcfund.org.kp. 2012022310 28800 7200 1209600 3600
+korelcfund.org.kp.	21599	IN	NS	ns2.korelcfund.org.kp.
+korelcfund.org.kp.	21599	IN	NS	ns1.korelcfund.org.kp.
+
+;; Query time: 614 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:59 2016
+;; MSG SIZE  rcvd: 128
+
+; <<>> DiG 9.8.3-P1 <<>> korfilm.com.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23933
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;korfilm.com.kp.			IN	ANY
+
+;; ANSWER SECTION:
+korfilm.com.kp.		21599	IN	A	175.45.176.81
+korfilm.com.kp.		21599	IN	SOA	ns1.korfilm.com.kp. root.korfilm.com.kp. 2012022310 28800 7200 1209600 3600
+korfilm.com.kp.		21599	IN	NS	ns2.korfilm.com.kp.
+korfilm.com.kp.		21599	IN	NS	ns1.korfilm.com.kp.
+
+;; Query time: 481 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:59 2016
+;; MSG SIZE  rcvd: 125
+
+; <<>> DiG 9.8.3-P1 <<>> kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61884
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;kp.				IN	ANY
+
+;; ANSWER SECTION:
+kp.			21599	IN	SOA	ns1.kptc.kp. root.kptc.kp. 2013083001 28800 86400 1209600 86400
+kp.			21599	IN	NS	ns3.kptc.kp.
+kp.			21599	IN	NS	ns1.kptc.kp.
+kp.			21599	IN	NS	ns2.kptc.kp.
+
+;; Query time: 337 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:49:59 2016
+;; MSG SIZE  rcvd: 120
+
+; <<>> DiG 9.8.3-P1 <<>> ma.gov.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14530
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;ma.gov.kp.			IN	ANY
+
+;; ANSWER SECTION:
+ma.gov.kp.		21599	IN	SOA	ns1.ma.gov.kp. postmaster.ma.gov.kp. 2012113010 28800 7200 1209600 3600
+ma.gov.kp.		21599	IN	NS	ns1.ma.gov.kp.
+ma.gov.kp.		21599	IN	NS	ns2.ma.gov.kp.
+ma.gov.kp.		21599	IN	A	175.45.176.76
+
+;; Query time: 614 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:00 2016
+;; MSG SIZE  rcvd: 126
+
+; <<>> DiG 9.8.3-P1 <<>> masikryong.com.kp.
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.8.3-P1 <<>> naenara.com.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1861
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;naenara.com.kp.			IN	ANY
+
+;; ANSWER SECTION:
+naenara.com.kp.		21599	IN	SOA	ns1.naenara.com.kp. root.naenara.com.kp. 2012022310 28800 7200 1209600 3600
+naenara.com.kp.		21599	IN	NS	ns2.naenara.com.kp.
+naenara.com.kp.		21599	IN	NS	ns1.naenara.com.kp.
+naenara.com.kp.		21599	IN	A	175.45.176.67
+naenara.com.kp.		21599	IN	A	175.45.176.77
+
+;; Query time: 554 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:16 2016
+;; MSG SIZE  rcvd: 141
+
+; <<>> DiG 9.8.3-P1 <<>> net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28061
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;net.kp.				IN	ANY
+
+;; ANSWER SECTION:
+net.kp.			21599	IN	SOA	ns1.net.kp. root.net.kp. 2013082901 28800 86400 1209600 86400
+net.kp.			21599	IN	NS	ns1.net.kp.
+net.kp.			21599	IN	NS	ns2.net.kp.
+
+;; Query time: 408 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:16 2016
+;; MSG SIZE  rcvd: 101
+
+; <<>> DiG 9.8.3-P1 <<>> nta.gov.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55485
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;nta.gov.kp.			IN	ANY
+
+;; ANSWER SECTION:
+nta.gov.kp.		21599	IN	SOA	ns1.nta.gov.kp. postmaster.nta.gov.kp. 2012113010 28800 7200 1209600 3600
+nta.gov.kp.		21599	IN	NS	ns1.nta.gov.kp.
+nta.gov.kp.		21599	IN	NS	ns2.nta.gov.kp.
+nta.gov.kp.		21599	IN	A	175.45.176.81
+
+;; Query time: 614 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:17 2016
+;; MSG SIZE  rcvd: 127
+
+; <<>> DiG 9.8.3-P1 <<>> org.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34626
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;org.kp.				IN	ANY
+
+;; ANSWER SECTION:
+org.kp.			21599	IN	SOA	ns1.org.kp. root.org.kp. 2013082900 28800 86400 1209600 86400
+org.kp.			21599	IN	NS	ns1.org.kp.
+org.kp.			21599	IN	NS	ns2.org.kp.
+
+;; Query time: 256 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:17 2016
+;; MSG SIZE  rcvd: 101
+
+; <<>> DiG 9.8.3-P1 <<>> portal.net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30089
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;portal.net.kp.			IN	ANY
+
+;; ANSWER SECTION:
+portal.net.kp.		59	IN	SOA	ns1.portal.net.kp. root.portal.net.kp. 2012022301 28800 7200 1209600 3600
+portal.net.kp.		59	IN	NS	ns2.portal.net.kp.
+portal.net.kp.		59	IN	NS	ns1.portal.net.kp.
+portal.net.kp.		59	IN	MX	10 smtp.portal.net.kp.
+
+;; Query time: 561 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:17 2016
+;; MSG SIZE  rcvd: 129
+
+; <<>> DiG 9.8.3-P1 <<>> rcc.net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35552
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;rcc.net.kp.			IN	ANY
+
+;; ANSWER SECTION:
+rcc.net.kp.		21599	IN	SOA	ns1.rcc.net.kp. postmaster.rcc.net.kp. 2012113010 28800 7200 1209600 3600
+rcc.net.kp.		21599	IN	NS	ns2.rcc.net.kp.
+rcc.net.kp.		21599	IN	NS	ns1.rcc.net.kp.
+
+;; Query time: 614 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:18 2016
+;; MSG SIZE  rcvd: 111
+
+; <<>> DiG 9.8.3-P1 <<>> rep.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27173
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;rep.kp.				IN	ANY
+
+;; ANSWER SECTION:
+rep.kp.			21599	IN	SOA	ns1.rep.kp. root.rep.kp. 2013082900 28800 86400 1209600 86400
+rep.kp.			21599	IN	NS	ns2.rep.kp.
+rep.kp.			21599	IN	NS	ns1.rep.kp.
+
+;; Query time: 409 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:18 2016
+;; MSG SIZE  rcvd: 101
+
+; <<>> DiG 9.8.3-P1 <<>> rodong.rep.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35816
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;rodong.rep.kp.			IN	ANY
+
+;; ANSWER SECTION:
+rodong.rep.kp.		21599	IN	SOA	ns1.rodong.rep.kp. root.rodong.rep.kp. 2012022310 28800 7200 1209600 3600
+rodong.rep.kp.		21599	IN	NS	ns2.rodong.rep.kp.
+rodong.rep.kp.		21599	IN	NS	ns1.rodong.rep.kp.
+rodong.rep.kp.		21599	IN	A	175.45.176.68
+rodong.rep.kp.		21599	IN	A	175.45.176.78
+
+;; Query time: 544 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:19 2016
+;; MSG SIZE  rcvd: 140
+
+; <<>> DiG 9.8.3-P1 <<>> ryongnamsan.edu.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31132
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;ryongnamsan.edu.kp.		IN	ANY
+
+;; ANSWER SECTION:
+ryongnamsan.edu.kp.	21599	IN	A	175.45.176.79
+ryongnamsan.edu.kp.	21599	IN	SOA	ns1.ryongnamsan.edu.kp. postmaster.ryongnamsan.edu.kp. 2012042611 28800 7200 1209600 3600
+ryongnamsan.edu.kp.	21599	IN	NS	ns1.ryongnamsan.edu.kp.
+ryongnamsan.edu.kp.	21599	IN	NS	ns2.ryongnamsan.edu.kp.
+
+;; Query time: 1298 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:20 2016
+;; MSG SIZE  rcvd: 135
+
+; <<>> DiG 9.8.3-P1 <<>> sdprk.org.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46331
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;sdprk.org.kp.			IN	ANY
+
+;; ANSWER SECTION:
+sdprk.org.kp.		21599	IN	SOA	ns1.sdprk.org.kp. root.sdprk.org.kp. 2013050210 28800 7200 1209600 3600
+sdprk.org.kp.		21599	IN	NS	ns2.sdprk.org.kp.
+sdprk.org.kp.		21599	IN	NS	ns1.sdprk.org.kp.
+sdprk.org.kp.		21599	IN	A	175.45.176.81
+
+;; Query time: 490 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:21 2016
+;; MSG SIZE  rcvd: 123
+
+; <<>> DiG 9.8.3-P1 <<>> silibank.net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52802
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;silibank.net.kp.		IN	ANY
+
+;; ANSWER SECTION:
+silibank.net.kp.	21599	IN	SOA	ns1.silibank.net.kp. root.silibank.net.kp. 2012022300 28800 7200 1209600 3600
+silibank.net.kp.	21599	IN	NS	ns2.silibank.net.kp.
+silibank.net.kp.	21599	IN	NS	ns1.silibank.net.kp.
+silibank.net.kp.	21599	IN	MX	10 mail.silibank.net.kp.
+silibank.net.kp.	21599	IN	TXT	"v=spf1 ip4:175.45.176.70 -all"
+
+;; Query time: 328 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:21 2016
+;; MSG SIZE  rcvd: 173
+
+; <<>> DiG 9.8.3-P1 <<>> star-co.net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6031
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;star-co.net.kp.			IN	ANY
+
+;; ANSWER SECTION:
+star-co.net.kp.		21599	IN	SOA	ns1.star-co.net.kp. root.star-co.net.kp. 2012022303 28800 7200 1209600 3600
+star-co.net.kp.		21599	IN	NS	ns1.star-co.net.kp.
+star-co.net.kp.		21599	IN	NS	ns2.star-co.net.kp.
+star-co.net.kp.		21599	IN	MX	10 smtp.star-co.net.kp.
+star-co.net.kp.		21599	IN	TXT	"v=spf1 ip4:175.45.178.55 -all"
+
+;; Query time: 1228 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:22 2016
+;; MSG SIZE  rcvd: 172
+
+; <<>> DiG 9.8.3-P1 <<>> star-di.net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13825
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;star-di.net.kp.			IN	ANY
+
+;; ANSWER SECTION:
+star-di.net.kp.		599	IN	SOA	ns1.star-di.net.kp. root.star-di.net.kp. 2012022300 28800 7200 1209600 3600
+star-di.net.kp.		599	IN	NS	ns1.star-di.net.kp.
+star-di.net.kp.		599	IN	NS	ns2.star-di.net.kp.
+star-di.net.kp.		599	IN	MX	10 smtp.star-di.net.kp.
+
+;; Query time: 1229 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:24 2016
+;; MSG SIZE  rcvd: 130
+
+; <<>> DiG 9.8.3-P1 <<>> star.co.kp.
+;; connection timed out; no servers could be reached
+; <<>> DiG 9.8.3-P1 <<>> star.edu.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8822
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;star.edu.kp.			IN	ANY
+
+;; ANSWER SECTION:
+star.edu.kp.		3599	IN	SOA	ns1.star.edu.kp. root.ns1.star.edu.kp. 2015011503 10800 3600 604800 3600
+star.edu.kp.		3599	IN	NS	ns1.star.edu.kp.
+star.edu.kp.		3599	IN	MX	10 mail.star.edu.kp.
+
+;; Query time: 554 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:39 2016
+;; MSG SIZE  rcvd: 109
+
+; <<>> DiG 9.8.3-P1 <<>> star.net.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44715
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;star.net.kp.			IN	ANY
+
+;; ANSWER SECTION:
+star.net.kp.		58	IN	SOA	ns1.star.net.kp. root.star.net.kp. 2012022301 28800 7200 1209600 3600
+star.net.kp.		58	IN	NS	ns2.star.net.kp.
+star.net.kp.		58	IN	NS	ns1.star.net.kp.
+star.net.kp.		58	IN	MX	10 smtp.star.net.kp.
+star.net.kp.		58	IN	TXT	"v=spf1 ip4:175.45.178.60 -all"
+
+;; Query time: 1487 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:41 2016
+;; MSG SIZE  rcvd: 169
+
+; <<>> DiG 9.8.3-P1 <<>> vok.rep.kp.
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60801
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;vok.rep.kp.			IN	ANY
+
+;; ANSWER SECTION:
+vok.rep.kp.		21599	IN	A	175.45.176.85
+vok.rep.kp.		21599	IN	A	175.45.176.75
+vok.rep.kp.		21599	IN	SOA	ns1.vok.rep.kp. root.vok.rep.kp. 2012022312 28800 7200 1209600 3600
+vok.rep.kp.		21599	IN	NS	ns1.vok.rep.kp.
+vok.rep.kp.		21599	IN	NS	ns2.vok.rep.kp.
+
+;; Query time: 561 msec
+;; SERVER: 172.16.0.1#53(172.16.0.1)
+;; WHEN: Mon Sep 19 22:50:41 2016
+;; MSG SIZE  rcvd: 137
+
