@@ -6,7 +6,9 @@ On Sept 19, 2016 at approximately 10:00PM (PDT), one of North Korea's top level 
 
 [Click here for the commit showing this incident.](https://github.com/mandatoryprogrammer/TLDR/blob/132016acc6aa8478bd050deb798178f8d5c630f8/archives/kp/ns2.kptc.kp.zone)
 
-As of the time of this writing, zone transfers are still enabled for multiple `.kp` top level domains via `ns2.kptc.kp`.
+~~As of the time of this writing, zone transfers are still enabled for multiple `.kp` top level domains via `ns2.kptc.kp`.~~
+
+**Update:** North Korea has now patched this issue, however this project will continue to scan the Internet for future slip-ups just like this one.
 
 ## PoC
 ```bash
